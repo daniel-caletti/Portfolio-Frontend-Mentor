@@ -1,0 +1,71 @@
+@media (min-width: 850px) {
+
+    .sociais-mobile {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .sociais-desktop {
+        display: none;
+    }
+
+    .localizacao {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .card {
+        width: 23rem;
+        height: 38rem;
+    }
+
+    .card-frame {
+        width: 23rem;
+        height: 38rem;
+    }
+
+    .localizacao {
+        margin-bottom: 40px;
+    }
+
+    .sociais-mobile ul {
+        width: 250px;
+        margin-bottom: -15px;
+    }
+
+    .sociais-mobile .house {
+        margin-bottom: 9px;
+
+    }
+}
+
+@media (max-width: 400px) {
+
+    .card {
+        width: 20rem;
+        height: 33rem;
+    }
+
+    .card-frame {
+        width: 20rem;
+        height: 33rem;
+    }
+
+    .localizacao {
+        margin-bottom: 30px;
+    }
+
+    .sociais-mobile svg {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+}

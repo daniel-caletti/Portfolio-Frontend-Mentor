@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --texto-padrao: Inter, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(140deg, #000030, #000022, #000030);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.card {
+    background-color: hsl(15, 50%, 97%);
+    width: 25.5rem;
+    height: 37rem;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    position: absolute;
+}
+
+.card-frame {
+    width: 25.5rem;
+    height: 37rem;
+    background-color: hsl(33, 84%, 48%);
+    border-radius: 15px;
+    animation-name: card-frame;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 200px;
+    width: 6.7rem;
+}
+
+.informacoes-pessoais h2 {
+    font-family: var(--texto-padrao);
+    color: hsl(hsl(0, 0%, 0%));
+    font-weight: 700;
+    font-size: 25.5px;
+}
+
+.localizacao {
+    font-family: var(--texto-padrao);
+    color: hsl(33, 84%, 48%);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre-mim {
+    color: hsl(0, 0%, 0%);
+    font-weight: 500;
+    font-size: 14px;
+    font-family: var(--texto-padrao);
+}
+
+.sociais-desktop ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sociais-desktop li a {
+    font-family: var(--texto-padrao);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 0.85rem 6.5rem;
+    transition: ease-in-out .5s;
+}
+
+.sociais-desktop li a:hover {
+    background-color: hsl(348, 66%, 46%);
+}
+
+/*Mobile Design*/
+
+hr {
+    border: 2px solid hsl(0, 0%, 80%);
+    width: 90%;
+}
+
+.sociais-mobile ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.sociais-mobile svg{
+    color: hsl(0, 0%, 20%);
+    height: 3.6rem;
+    width: 3.6rem;
+}
+
+.sociais-mobile svg:hover {
+    color: hsl(348, 66%, 46%);
+    transition: ease-in-out .5s;
+}

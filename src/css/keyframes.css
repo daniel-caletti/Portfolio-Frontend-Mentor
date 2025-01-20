@@ -1,0 +1,11 @@
+@keyframes card-frame {
+    from {
+        top: 0px;
+        left: 0px;
+    }
+
+    to {
+        top: 10px;
+        left: 10px;
+    }
+}
