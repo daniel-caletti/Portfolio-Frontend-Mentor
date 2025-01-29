@@ -4,14 +4,18 @@
     --texto-padrao: Inter, sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(140deg, #000030, #000022, #000030);
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(140deg, #000030, #000022, #000030);
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    
 }
 
 .card {
@@ -86,6 +90,7 @@
 
 .sociais-desktop li a:hover {
     background-color: hsl(348, 66%, 46%);
+    transform: scale(1.05);
 }
 
 /*Mobile Design*/
@@ -112,5 +117,6 @@ hr {
 
 .sociais-mobile svg:hover {
     color: hsl(348, 66%, 46%);
+    transform: scale(1.05);
     transition: ease-in-out .5s;
 }

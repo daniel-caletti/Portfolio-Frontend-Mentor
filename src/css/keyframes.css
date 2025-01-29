@@ -1,11 +1,9 @@
 @keyframes card-frame {
     from {
-        top: 0px;
-        left: 0px;
+        transform: translate(0px, 0px);
     }
 
     to {
-        top: 10px;
-        left: 10px;
+        transform: translate(10px, 10px);
     }
 }
