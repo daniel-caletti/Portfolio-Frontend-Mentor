@@ -32,6 +32,10 @@
         height: 38rem;
     }
 
+    .card img {
+        width: 7.5rem;
+    }
+
     .localizacao {
         margin-bottom: 40px;
     }
@@ -68,6 +72,10 @@
         height: 33rem;
     }
 
+    .card img {
+        width: 6.7rem;
+    }
+
     .localizacao {
         margin-bottom: 30px;
     }
@@ -102,13 +110,17 @@
         margin-bottom: 12px;
     }
 
+    .sobre-mim {
+        padding: 10px;
+    }
+
     .sociais-mobile ul {
         width: 200px;
         gap: 10px;
     }
 
     .sociais-mobile svg {
-        height: 3.2rem;
-        width: 3.2rem;
+        height: 3.0rem;
+        width: 3.0rem;
     }
 }
